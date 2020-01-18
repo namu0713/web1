@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>TeaTube</title>
+<meta charset="utf-8">
+<style>
+	#yo{
+		display: grid;
+		grid-template-columns: 150px 1fr;
+	}
+	#yee{
+		border-bottom: 5px red solid;
+	}
+	ul{
+		border-right: 5px red solid;
+		padding: 20px;
+		width: 50px;
+		padding-top: 0;
+		margin: 0;
+	}
+</style>
+</head>
+
+<body>
+<div id="yee">
+	<img src="2.jpg" width="3%" >
+	<a href="index.html"><img src="h.jpg" width="10%" ></a>
+</div>
+<div id="yo">
+	<ul>
+		<li><a href="index.html">홈</a></li>
+		<li>인기</li>
+		<li>구독</li>
+		<li><a href="web1.html">영화</a></li>
+	</ul>
+	<div>
+		<img src="maxresdefaul.jpg"width ="300">
+		<br>
+		<audio src="changmo.mp3" autoplay controls="">
+			브라우저가 오디오를 지원하지 않습니다.
+		</audio>
+	</div>
+</div>
+<p>
+	<div id="disqus_thread"></div>
+	<script>
+	
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO 	INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	/*
+	var disqus_config = function () {
+	this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://ojing.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+</body>
